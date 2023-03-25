@@ -14,7 +14,6 @@
 }
 
 
-
 header ul li {
     display: inline-block;
     font-size: 18px;
@@ -75,7 +74,7 @@ a:hover {
 .first-section {
     padding-top: 300px;
     display: flex;
-   padding-left: 100px;
+   padding-left: 20px;
 
 }
 
@@ -297,6 +296,7 @@ h4 {
 
 .about-paragraph-1,
 .about-paragraph-2
+
  {
     font-family: 'Caveat', cursive;
     line-height: 30px;
@@ -308,6 +308,16 @@ h4 {
     padding-right: 20px;
 }
 
+.about-paragraph-3 {
+    font-family: 'Caveat', cursive;
+    line-height: 30px;
+    text-align: justify;
+    background-color: #d6d0d0;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .about-second-section  {
     display: flex;
     padding-top: 100px;
@@ -315,17 +325,88 @@ h4 {
     gap:70px;
 }
 
-.about-second-section img {
+.about-second-section img
+ {
     border-radius: 30px;
 }
 
 h5 {
     font-size: 20px;
     font-family: 'Caveat', cursive;
-    padding-top: 100px;
+    padding-top: 20px;
     padding-bottom: 30px;
+    background-color: #d6d0d0;
+    border-radius: 10px;
 }
 
-.about-paragraph-3 {
+.main-comtainer {
+    max-width:1440px;
+    width:90%;
+    margin: 0 auto;
+}
+
+.about-third-section {
+    display: flex;
+    padding-top: 100px;
+    padding-left: 100px;
+    gap:70px;
     
 }
+
+.about-third-section img {
+    width:500px;
+    border-radius: 10px;
+}
+
+.process button {
+    text-transform: uppercase;
+    padding:20px 20px;
+    font-family: 'Caveat', cursive;
+border-color:brown;
+color:brown;
+cursor: pointer;
+}
+
+.process {
+    padding-top: 50px;
+}
+
+.process button:hover {
+    color:white;
+    background-color:brown;
+}
+
+.about-last {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+    padding-top:50px
+}
+
+.contact-button button {
+    text-transform: uppercase;
+    padding:20px 20px;
+    font-family: 'Caveat', cursive;
+border-color:brown;
+color:brown;
+cursor: pointer;
+
+}
+
+.contact-button {
+    text-align: center;
+    padding-top:50px;
+    padding-bottom: 100px;
+    
+}
+
+.contact-button button:hover {
+    color:white;
+    background-color:brown;
+}
+
+
+
+
+
+
