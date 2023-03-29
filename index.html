@@ -7,11 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="index.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Andada+Pro:wght@400;500;700&family=Dancing+Script&family=Fira+Sans+Condensed:wght@500&family=Nunito&family=Open+Sans&family=Oswald:wght@500&family=Pacifico&family=Poppins&family=Red+Hat+Display&family=Red+Rose&family=Rufina:wght@700&family=Shantell+Sans:ital,wght@1,700&family=Unbounded&family=Work+Sans&display=swap"
         rel="stylesheet">
+
     <title>Document</title>
 </head>
 
@@ -38,7 +40,7 @@
                 </ul>
             </nav>
             <img src="assets/imgs/bathroom/cover.PNG">
-    
+
             <nav class="secondary-nav">
                 <li>
                     <a href="assets/pages/living.html">living room</a>
@@ -54,7 +56,7 @@
                 </li>
             </nav>
         </header>
-    
+
         <main>
             <section>
                 <div class="first-section">
@@ -73,15 +75,16 @@
                                 destination designed to meet all your
                                 interior decorating needs, whether big or small. Talk to us about restyling a room,
                                 decorating
-                                around a hero piece or designing a home from the ground up. Our team of experts will be glad
+                                around a hero piece or designing a home from the ground up. Our team of experts will be
+                                glad
                                 to help
                                 you with personalized styling solutions following you in all phases of your project.</p>
                         </div>
                     </div>
-    
+
                 </div>
             </section>
-    
+
             <div class="under-section">Need help with your project? Book your free consultation with one of our interior
                 designers.</div>
             <div class="first-btn">
@@ -89,7 +92,7 @@
                     get started
                 </button>
             </div>
-    
+
             <section class="second-section">
                 <h3>our services</h3>
                 <div class="img-blocks-2">
@@ -117,9 +120,9 @@
                     <div>
                         <img src="assets/imgs/8.PNG">
                     </div>
-    
+
                 </div>
-    
+
                 <div class="img-desc">
                     <div>design concept</div>
                     <div>selection</div>
@@ -130,7 +133,7 @@
                     <div>layouts</div>
                     <div>project management</div>
                 </div>
-    
+
                 <div class="share">
                     share:
                 </div>
@@ -152,13 +155,64 @@
                     <label for="email"></label>
                     <input type="text" id="email" name="email" placeholder="Email address">
                 </div>
+
+                <div class="mybtn">
+  <button id="myBtn">Order your design</button>
                 </div>
-            </section>
-        </main>
+                
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p>
+                            Design to Order is a manufacturing approach in which the individual parts are designed and
+                            assembled specifically for each customer order. Even if the end product contains standard
+                            parts, a separate production process with a specific parts list is required for the product.
+                            This approach is typical in the construction industry, in the construction of large-scale
+                            plants and in the classic production of individual parts.</p>
+                    </div>
+
+                </div>
+
+                <script>
+                    // Get the modal
+                    var modal = document.getElementById("myModal");
+
+                    // Get the button that opens the modal
+                    var btn = document.getElementById("myBtn");
+
+                    // Get the <span> element that closes the modal
+                    var span = document.getElementsByClassName("close")[0];
+
+                    // When the user clicks the button, open the modal 
+                    btn.onclick = function () {
+                        modal.style.display = "block";
+                    }
+
+                    // When the user clicks on <span> (x), close the modal
+                    span.onclick = function () {
+                        modal.style.display = "none";
+                    }
+
+                    // When the user clicks anywhere outside of the modal, close it
+                    window.onclick = function (event) {
+                        if (event.target == modal) {
+                            modal.style.display = "none";
+                        }
+                    }
+                </script>
+
+
+    </div>
+    </section>
+    </main>
 
     </div>
 
-   
+
     <footer>
 
         <div class="columns">
@@ -170,7 +224,7 @@
                 <div>affiliation</div>
                 <div>careers</div>
             </div>
-    
+
             <div class="second-column">
                 <div>design service</div>
                 <div>trade program</div>
@@ -179,7 +233,7 @@
                 <div>concierge@artemest.com</div>
                 <div>accessibility support</div>
             </div>
-    
+
             <div class="third-column">
                 <div>provacy policy</div>
                 <div>cookie policy</div>
@@ -188,7 +242,7 @@
                 <div>returns & refunds</div>
                 <div>country and language settings</div>
             </div>
-    
+
             <div class="forth-column">
                 <div>visit us</div>
                 <div>artemest galleria NYC</div>
@@ -214,8 +268,8 @@
         </div>
         <div class="footer-last-line">© 2023 ARTEMEST. ALL RIGHTS RESERVED.
         </div>
-       
-        
+
+
 
 
 
