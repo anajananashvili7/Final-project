@@ -39,7 +39,7 @@
                     </li>
                 </ul>
             </nav>
-            <img src="assets/imgs/bathroom/cover.PNG">
+
 
             <nav class="secondary-nav">
                 <li>
@@ -61,7 +61,7 @@
             <section>
                 <div class="first-section">
                     <div>
-                        <img style="width:600px" src="assets/imgs/main.jpg">
+                        <img src="assets/imgs/main.jpg">
                     </div>
                     <div class="paragraps">
                         <div>
@@ -85,125 +85,80 @@
                 </div>
             </section>
 
-            <div class="under-section">Need help with your project? Book your free consultation with one of our interior
-                designers.</div>
-            <div class="first-btn">
-                <button>
-                    get started
-                </button>
+     
+
+
+
+            <div class="share">
+                share:
+            </div>
+            <div class="icon-blocks">
+                <div>
+                    <img style="width:30px" src="assets/imgs/twitter.PNG">
+                </div>
+                <div>
+                    <img style="width:30px" src="assets/imgs/pinterest.PNG">
+                </div>
+                <div>
+                    <img style="width:25px" src="assets/imgs/facebook.PNG">
+                </div>
+                <div>
+                    <img style="width:30px" src="assets/imgs/mail.PNG">
+                </div>
+            </div>
+            <div class="input">
+                <label for="email"></label>
+                <input type="text" id="email" name="email" placeholder="Email address">
             </div>
 
-            <section class="second-section">
-                <h3>our services</h3>
-                <div class="img-blocks-2">
-                    <div>
-                        <img src="assets/imgs/1.PNG">
-                    </div>
-                    <div>
-                        <img src="assets/imgs/2.PNG">
-                    </div>
-                    <div>
-                        <img src="assets/imgs/3.PNG">
-                    </div>
-                    <div>
-                        <img src="assets/imgs/4.PNG">
-                    </div>
-                    <div>
-                        <img src="assets/imgs/5.PNG">
-                    </div>
-                    <div>
-                        <img src="assets/imgs/6.PNG">
-                    </div>
-                    <div>
-                        <img src="assets/imgs/7.PNG">
-                    </div>
-                    <div>
-                        <img src="assets/imgs/8.PNG">
-                    </div>
+            <div class="mybtn">
+                <button id="myBtn">Order your design</button>
+            </div>
 
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>
+                        Design to Order is a manufacturing approach in which the individual parts are designed and
+                        assembled specifically for each customer order. Even if the end product contains standard
+                        parts, a separate production process with a specific parts list is required for the product.
+                        This approach is typical in the construction industry, in the construction of large-scale
+                        plants and in the classic production of individual parts.</p>
                 </div>
 
-                <div class="img-desc">
-                    <div>design concept</div>
-                    <div>selection</div>
-                    <div style="padding-left:30px">styling</div>
-                    <div style="padding-left:50px">moodboards</div>
-                    <div>technical support</div>
-                    <div>customization</div>
-                    <div>layouts</div>
-                    <div>project management</div>
-                </div>
+            </div>
 
-                <div class="share">
-                    share:
-                </div>
-                <div class="icon-blocks">
-                    <div>
-                        <img style="width:30px" src="assets/imgs/twitter.PNG">
-                    </div>
-                    <div>
-                        <img style="width:30px" src="assets/imgs/pinterest.PNG">
-                    </div>
-                    <div>
-                        <img style="width:25px" src="assets/imgs/facebook.PNG">
-                    </div>
-                    <div>
-                        <img style="width:30px" src="assets/imgs/mail.PNG">
-                    </div>
-                </div>
-                <div class="input">
-                    <label for="email"></label>
-                    <input type="text" id="email" name="email" placeholder="Email address">
-                </div>
+            <script>
+                // Get the modal
+                var modal = document.getElementById("myModal");
 
-                <div class="mybtn">
-  <button id="myBtn">Order your design</button>
-                </div>
-                
+                // Get the button that opens the modal
+                var btn = document.getElementById("myBtn");
 
-                <!-- The Modal -->
-                <div id="myModal" class="modal">
+                // Get the <span> element that closes the modal
+                var span = document.getElementsByClassName("close")[0];
 
-                    <!-- Modal content -->
-                    <div class="modal-content">
-                        <span class="close">&times;</span>
-                        <p>
-                            Design to Order is a manufacturing approach in which the individual parts are designed and
-                            assembled specifically for each customer order. Even if the end product contains standard
-                            parts, a separate production process with a specific parts list is required for the product.
-                            This approach is typical in the construction industry, in the construction of large-scale
-                            plants and in the classic production of individual parts.</p>
-                    </div>
+                // When the user clicks the button, open the modal 
+                btn.onclick = function () {
+                    modal.style.display = "block";
+                }
 
-                </div>
+                // When the user clicks on <span> (x), close the modal
+                span.onclick = function () {
+                    modal.style.display = "none";
+                }
 
-                <script>
-                    // Get the modal
-                    var modal = document.getElementById("myModal");
-
-                    // Get the button that opens the modal
-                    var btn = document.getElementById("myBtn");
-
-                    // Get the <span> element that closes the modal
-                    var span = document.getElementsByClassName("close")[0];
-
-                    // When the user clicks the button, open the modal 
-                    btn.onclick = function () {
-                        modal.style.display = "block";
-                    }
-
-                    // When the user clicks on <span> (x), close the modal
-                    span.onclick = function () {
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function (event) {
+                    if (event.target == modal) {
                         modal.style.display = "none";
                     }
-
-                    // When the user clicks anywhere outside of the modal, close it
-                    window.onclick = function (event) {
-                        if (event.target == modal) {
-                            modal.style.display = "none";
-                        }
-                    }
-                </script>
+                }
+            </script>
 
 
     </div>
