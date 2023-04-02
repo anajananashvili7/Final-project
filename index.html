@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -18,223 +18,194 @@
 </head>
 
 <body>
-        <header>
-            <nav>
-                <h4>
-                        <img style="width:40px; height: 40px; cursor: pointer;" src="assets/imgs/bathroom/hEART.PNG">
-                </h4>
-                <ul class="nav-links nav-links__active">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="assets/pages/about.html">About us</a>
-                    </li>
-                    <li>
-                        <a href="assets/pages/location.html">Locations</a>
-                    </li>
-                    <li>
-                        <a href="assets/pages/contact.html">Contact</a>
-                    </li>
-                </ul>
-                <div class="burger">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-
-                </div>
-            </nav>
-
-
-            <nav class="secondary-nav">
+    <header>
+        <nav>
+            <h4>
+                <img style="width:40px; height: 40px; cursor: pointer;" src="assets/imgs/graphic-designer.png">
+            </h4>
+            <ul class="nav-links nav-links__active">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="assets/pages/about.html">About us</a>
+                </li>
+                <li>
+                    <a href="assets/pages/location.html">Locations</a>
+                </li>
+                <li>
+                    <a href="assets/pages/contact.html">Contact</a>
+                </li>
                 <li>
                     <a href="assets/pages/living.html">living room</a>
                 </li>
                 <li>
                     <a href="assets/pages/bedroom.html">bedroom</a>
                 </li>
-                <li>
-                    <a href="assets/pages/kitchen.html">kitchen</a>
-                </li>
-                <li>
-                    <a href="assets/pages/bathroom.html">Bathroom</a>
-                </li>
-            </nav>
-        </header>
 
-        <main>
-            <section>
-                <div class="first-section">
-                    <div>
-                        <img src="assets/imgs/main.jpg">
-                    </div>
-                    <div class="paragraps">
-                        <div>
-                            <p class="first-line">Design your home with artemest</p>
-                        </div>
-                        <div>
-                            <h2>Expert advice at your fingertips</h2>
-                        </div>
-                        <div>
-                            <p class="second-paragraph">Welcome to the Artemest Design Service, a dedicated online
-                                destination designed to meet all your
-                                interior decorating needs, whether big or small. Talk to us about restyling a room,
-                                decorating
-                                around a hero piece or designing a home from the ground up. Our team of experts will be
-                                glad
-                                to help
-                                you with personalized styling solutions following you in all phases of your project.</p>
-                        </div>
+            </ul>
+            <div class="burger">
+                <div></div>
+                <div></div>
+                <div></div>
+
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <section>
+
+            <body style="font-family:Verdana;">
+
+                <div style="background-color:#f1f1f1;padding:15px;">
+                    <h1>Cinque Terre</h1>
+                    <h3>Resize the browser window</h3>
+                </div>
+
+                <div style="overflow:auto">
+                    <div class="menu">
+                        <div class="menuitem">Moving into a new home can be one of life’s great joys, but it can also be
+                            a time of uncertainty, especially when it comes to decorating. How do you make your space
+                            look its best while reflecting your personal sense of style?</div>
+
+
                     </div>
 
-                
-            </section>
+                    <div class="main">
+                        <img src="assets/imgs/nn.jpg" style="width:100%">
+                    </div>
 
-     
+                    <div class="right">
+                        <div>
+                            <h2>Our design</h2>
+                            <p>Our Design Studio is a tight-knit team of creatives fueled by a passion for design and
+                                storytelling. As an independent studio, we offer a unique approach to crafting brand
+                                strategy, visual identity, website design, and email design.
 
+                                Our focus is on delivering impactful, eye-catching designs that not only look good but
+                                also
+                                help our clients stand out in a crowded digital landscape. With a strategy-first
+                                mentality,
+                                we prioritize establishing a solid brand strategy as the foundation for long-term
+                                success.
 
+                                We partner with ambitious individuals and businesses, transforming visions into
+                                meaningful,
+                                lasting engagement. Our designs are driven by purpose and strive to make a meaningful
+                                impact.</p>
+                        </div>
 
-            <div class="share">
-                share:
-            </div>
-            <div class="icon-blocks">
-                <div>
-                    <img style="width:30px" src="assets/imgs/twitter.PNG">
-                </div>
-                <div>
-                    <img style="width:30px" src="assets/imgs/pinterest.PNG">
-                </div>
-                <div>
-                    <img style="width:25px" src="assets/imgs/facebook.PNG">
-                </div>
-                <div>
-                    <img style="width:30px" src="assets/imgs/mail.PNG">
-                </div>
-            </div>
-            <div class="input">
-                <label for="email"></label>
-                <input type="text" id="email" name="email" placeholder="Email address">
-            </div>
+                        <div class="mybtn">
+                            <button id="myBtn">Order your design</button>
+                        </div>
 
-            <div class="mybtn">
-                <button id="myBtn">Order your design</button>
-            </div>
-
-
-            <!-- The Modal -->
-            <div id="myModal" class="modal">
-
-                <!-- Modal content -->
-                <div class="modal-content">
-                    <span class="close">&times;</span>
-                    <p>
-                        Design to Order is a manufacturing approach in which the individual parts are designed and
-                        assembled specifically for each customer order. Even if the end product contains standard
-                        parts, a separate production process with a specific parts list is required for the product.
-                        This approach is typical in the construction industry, in the construction of large-scale
-                        plants and in the classic production of individual parts.</p>
+                    </div>
                 </div>
 
-            </div>
-
-            <script>
-                // Get the modal
-                var modal = document.getElementById("myModal");
-
-                // Get the button that opens the modal
-                var btn = document.getElementById("myBtn");
-
-                // Get the <span> element that closes the modal
-                var span = document.getElementsByClassName("close")[0];
-
-                // When the user clicks the button, open the modal 
-                btn.onclick = function () {
-                    modal.style.display = "block";
-                }
-
-                // When the user clicks on <span> (x), close the modal
-                span.onclick = function () {
-                    modal.style.display = "none";
-                }
-
-                // When the user clicks anywhere outside of the modal, close it
-                window.onclick = function (event) {
-                    if (event.target == modal) {
-                        modal.style.display = "none";
-                    }
-                }
-            </script>
 
 
-    </div>
-    </section>
-    </main>
+            </body>
 
+</html>
+
+
+
+</section>
+
+
+
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>
+            Design to Order is a manufacturing approach in which the individual parts are designed and
+            assembled specifically for each customer order. Even if the end product contains standard
+            parts, a separate production process with a specific parts list is required for the product.
+            This approach is typical in the construction industry, in the construction of large-scale
+            plants and in the classic production of individual parts.</p>
     </div>
 
-
-    <footer>
-
-        <div class="columns">
-            <div class="first-column">
-                <div>about artemest</div>
-                <div>artisan list</div>
-                <div>design icons</div>
-                <div>contact</div>
-                <div>affiliation</div>
-                <div>careers</div>
-            </div>
-
-            <div class="second-column">
-                <div>design service</div>
-                <div>trade program</div>
-                <div>wedding registry</div>
-                <div>customer service</div>
-                <div>concierge@artemest.com</div>
-                <div>accessibility support</div>
-            </div>
-
-            <div class="third-column">
-                <div>provacy policy</div>
-                <div>cookie policy</div>
-                <div>terms and conditions of sale</div>
-                <div>terms and conditions of sale - trade</div>
-                <div>returns & refunds</div>
-                <div>country and language settings</div>
-            </div>
-
-            <div class="forth-column">
-                <div>visit us</div>
-                <div>artemest galleria NYC</div>
-                <div>518 west 19th street, new york</div>
-                <div>+1 917 409 3176</div>
-                <div class="footer-icons">
-                    <div>
-                        <img style="width:25px" src="assets/imgs/facebook-2.png">
-                    </div>
-                    <div>
-                        <img style="width:25px" src="assets/imgs/instagram.png">
-                    </div>
-                    <div>
-                        <img style="width:25px" src="assets/imgs/telegram.png">
-                    </div>
-                    <div>
-                        <img style="width:25px" src="assets/imgs/whatsapp.png">
-                    </div>
+</div>
 
 
+
+
+</div>
+</section>
+</main>
+
+</div>
+
+
+<footer>
+
+    <div class="columns">
+        <div class="first-column">
+            <div>about artemest</div>
+            <div>artisan list</div>
+            <div>design icons</div>
+            <div>contact</div>
+            <div>affiliation</div>
+            <div>careers</div>
+        </div>
+
+        <div class="second-column">
+            <div>design service</div>
+            <div>trade program</div>
+            <div>wedding registry</div>
+            <div>customer service</div>
+            <div>concierge@artemest.com</div>
+            <div>accessibility support</div>
+        </div>
+
+        <div class="third-column">
+            <div>provacy policy</div>
+            <div>cookie policy</div>
+            <div>terms and conditions of sale</div>
+            <div>terms and conditions of sale - trade</div>
+            <div>returns & refunds</div>
+            <div>country and language settings</div>
+        </div>
+
+        <div class="forth-column">
+            <div>visit us</div>
+            <div>artemest galleria NYC</div>
+            <div>518 west 19th street, new york</div>
+            <div>+1 917 409 3176</div>
+            <div class="footer-icons">
+                <div>
+                    <img style="width:25px" src="assets/imgs/facebook-2.png">
                 </div>
+                <div>
+                    <img style="width:25px" src="assets/imgs/instagram.png">
+                </div>
+                <div>
+                    <img style="width:25px" src="assets/imgs/telegram.png">
+                </div>
+                <div>
+                    <img style="width:25px" src="assets/imgs/whatsapp.png">
+                </div>
+
+
             </div>
         </div>
-        <div class="footer-last-line">© 2023 ARTEMEST. ALL RIGHTS RESERVED.
-        </div>
+    </div>
+    <div class="footer-last-line">© 2023 ARTEMEST. ALL RIGHTS RESERVED.
+    </div>
 
 
 
 
 
 
-    </footer>
+</footer>
 
 </body>
 
